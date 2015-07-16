@@ -14,7 +14,7 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 		{
 			type : '',
 			icon : 'img/icons/ic_person_outline.svg',
-			text : 'Actuellement étudiant en 5ème année à l\'Exia.Cesi de Saint-Nazaire, je prépare un diplôme d\'ingénieur CESI spécialité informatique.',
+			text : 'Étudiant en 5ème année à l\'Exia.Cesi de Saint-Nazaire, je prépare un diplôme d\'ingénieur CESI spécialité informatique.',
 			mail : false,
 		}, {
 			type : 'Mobile',
