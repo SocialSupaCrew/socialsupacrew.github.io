@@ -1,0 +1,128 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+md-divider{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+md-sidenav {
+  background-color: #64B5F6;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+end {
+  justify-content: flex-end;
+}
+
+.body{
+  /* background-color: #e0e0e0; */
+}
+
+.titleToolbar{
+  margin-left: 50px;
+}
+
+md-card{
+  width: 83.33333%;
+  margin-left: 8.333333%;
+  margin-top: 50px;
+  /* background: white; */
+}
+
+@media only screen and (max-width: 960px) {
+  md-card{
+    width: 100%;
+    margin: auto auto 10px;
+    /* background: white; */
+  }
+}
+
+.headSidenav {
+  width: 100%;
+  height: 250px;
+  /* background-color: #ffffff; */
+  background-image: url("../img/headerSidenav.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.pictSidenav {
+  width: 80px;
+  height: 80px;
+  background-image: url("../img/pict_test.jpg");
+  background-size: cover;
+  background-position: top;
+  border-radius: 50%;
+}
+
+.myName {
+  padding-top: 15px;
+
+}
+
+.myJob {
+
+}
+
+.bodySidenav {
+  background-color: #64b5f6 !important;
+}
+
+.whiteText {
+  color: white !important;
+}
+
+.text-height {
+  line-height: 1em !important;
+}
+
+.card_text {
+  padding-left: 15px;
+}
+
+/* .card_logo {
+  padding-left: 50px;
+} */
+
+.card_logo>img {
+  max-height: 80px;
+  margin: auto;
+}
+
+.card_logo>object {
+  max-height: 80px;
+}
+
+.card_subtitle {
+  margin: 0px;
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.card_date {
+  margin: 0px;
+  color: #64b5f6;
+}
+
+.card_desc {
+  margin-top: 0px;
+}
