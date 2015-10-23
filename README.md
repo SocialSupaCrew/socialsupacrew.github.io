@@ -1,3 +1,4 @@
 # socialsupacrew.github.io
-Just my CV.
-You can find what it's look like at gwilherm-bernard.com
+Just my CV made with Angular Material : https://material.angularjs.org
+
+You can find what it's look like at http://gwilherm-bernard.com
