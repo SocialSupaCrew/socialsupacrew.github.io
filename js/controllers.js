@@ -133,6 +133,12 @@ app.controller('FabCtrl', function($scope, $timeout){
 		direction: "left",
 		link: "https://github.com/SocialSupaCrew",
 		mail: false
+	}, {
+		name: "CV PDF",
+		icon: "img/icons/ic_download.svg",
+		direction: "left",
+		link: "doc/CVFrancais_txt.pdf",
+		mail: false
 	}];
 
 	$scope.openLink = function(item) {
