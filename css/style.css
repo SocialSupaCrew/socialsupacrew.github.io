@@ -92,6 +92,10 @@ md-card{
   color: white !important;
 }
 
+.blackText {
+  color: black !important;
+}
+
 .text-height {
   line-height: 1em !important;
 }
@@ -126,4 +130,10 @@ md-card{
 
 .card_desc {
   margin-top: 0px;
+}
+
+.fab {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
 }

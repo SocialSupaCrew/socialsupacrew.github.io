@@ -170,6 +170,35 @@
 					</md-card>
 				</div>
 			</md-content>
+			<div ng-controller="FabCtrl as fab" class="lock-size fab" layout="row" layout-align="end end">
+				<md-fab-speed-dial ng-hide="fab.hidden" class="md-scale" md-open="fab.isOpen" md-direction="up" ng-class="{ 'md-hover-full': fab.hover }"  ng-mouseenter="fab.isOpen=true" ng-mouseleave="fab.isOpen=false">
+					<md-fab-trigger>
+						<md-button aria-label="menu" class="md-fab md-warn">
+							<md-icon md-svg-src="img/icons/ic_add.svg" aria-label="menu"></md-icon>
+						</md-button>
+					</md-fab-trigger>
+					<md-fab-actions>
+						<div ng-repeat="item in fab.items">
+							<a ng-if="mail" href="{{item.link}}">
+								<md-button aria-label="{{item.name}}" class="md-fab md-raised md-mini">
+									<md-tooltip md-direction="{{item.direction}}" md-visible="tooltipVisible" md-autohide="false">
+										{{item.name}}
+									</md-tooltip>
+									<md-icon md-svg-src="{{item.icon}}" aria-label="{{item.name}}" class="blackText"></md-icon>
+								</md-button>
+							</a>
+							<a ng-if="!mail" href="{{item.link}}" target="_blank">
+								<md-button aria-label="{{item.name}}" class="md-fab md-raised md-mini">
+									<md-tooltip md-direction="{{item.direction}}" md-visible="tooltipVisible" md-autohide="false">
+										{{item.name}}
+									</md-tooltip>
+									<md-icon md-svg-src="{{item.icon}}" aria-label="{{item.name}}" class="blackText"></md-icon>
+								</md-button>
+							</a>
+						</div>
+					</md-fab-actions>
+				</md-fab-speed-dial>
+			</div>
 		</section>
 	</div>
 </body>

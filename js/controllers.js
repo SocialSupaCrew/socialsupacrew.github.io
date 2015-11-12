@@ -73,7 +73,8 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 		},
 	];
 
-	$scope.skills = [{
+	$scope.skills = [
+	{
 		name : 'HTML5/CSS3',
 		score : 80
 	}, {
@@ -95,4 +96,42 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 		name : 'Cordova',
 		score : 70
 	}];
+});
+
+app.controller('FabCtrl', function($scope, $timeout){
+	var self = this;
+	self.isOpen = false;
+
+	self.hidden = false;
+	self.hover = false;
+
+	$scope.$watch('fab.isOpen', function(isOpen) {
+		if (isOpen) {
+			$timeout(function() {
+				$scope.tooltipVisible = self.isOpen;
+			}, 600);
+		} else {
+			$scope.tooltipVisible = self.isOpen;
+		}
+	});
+
+	self.items = [
+	{
+		name: "E-mail",
+		icon: "img/icons/ic_email.svg",
+		direction: "left",
+		link: "mailto:gwilherm.bernard@gmail.com",
+		mail: true
+	}, {
+		name: "GitHub",
+		icon: "img/icons/ic_github.svg",
+		direction: "left",
+		link: "https://github.com/SocialSupaCrew",
+		mail: false
+	}];
+
+	$scope.openLink = function(item) {
+		window.open(item.link);
+		// console.log(item.link);
+	};
 });
