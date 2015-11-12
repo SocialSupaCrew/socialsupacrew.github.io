@@ -108,7 +108,7 @@ md-card{
   padding-left: 50px;
 } */
 
-.card_logo>img {
+.card_logo>a>img {
   max-height: 80px;
   margin: auto;
 }

@@ -42,6 +42,7 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 			logo : 'img/logo-playmoweb.png',
 			logo_alt : 'logo-playmoweb',
 			last : false,
+			url : "http://www.playmoweb.com"
 		},{
 			subtitle : 'Pour Qui Pourquoi, Angers - Développement web (CDD)',
 			date : '2014 (2 mois)',
@@ -49,6 +50,7 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 			logo : 'img/logo-pqp.jpg',
 			logo_alt : 'logo-pqp',
 			last : false,
+			url : "http://www.pourquipourquoi.fr"
 		},{
 			subtitle : 'Pour Qui Pourquoi, Angers - Développement web (stage)',
 			date : '2014 (2,5 mois)',
@@ -56,6 +58,7 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 			logo : 'img/logo-pqp.jpg',
 			logo_alt : 'logo-pqp',
 			last : false,
+			url : "http://www.pourquipourquoi.fr"
 		},{
 			subtitle : 'Productys, Saint-Nazaire - Développement .net (stage)',
 			date : '2013 (2,5 mois)',
@@ -63,6 +66,7 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 			logo : 'img/logo-prod.jpg',
 			logo_alt : 'logo-productys',
 			last : false,
+			url : "http://www.productys.com"
 		},{
 			subtitle : 'Hors-Ligne, Guérande - Développement web (stage)',
 			date : '2012 (3 mois)',
@@ -70,6 +74,7 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 			logo : 'img/logo-hl.png',
 			logo_alt : 'logo-hors-lignes',
 			last : true,
+			url : "http://www.hors-lignes.com"
 		},
 	];
 
