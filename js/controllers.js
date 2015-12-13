@@ -105,18 +105,22 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 
 app.controller('FabCtrl', function($scope, $timeout){
 	var self = this;
-	self.isOpen = false;
+	self.isFabOpen = false;
+	self.isTbOpen = false;
+	self.count = 0;
+
+	self.label = "fzesrgbtf";
 
 	self.hidden = false;
 	self.hover = false;
 
-	$scope.$watch('fab.isOpen', function(isOpen) {
-		if (isOpen) {
+	$scope.$watch('fab.isFabOpen', function(isFabOpen) {
+		if (isFabOpen) {
 			$timeout(function() {
-				$scope.tooltipVisible = self.isOpen;
+				$scope.tooltipVisible = self.isFabOpen;
 			}, 600);
 		} else {
-			$scope.tooltipVisible = self.isOpen;
+			$scope.tooltipVisible = self.isFabOpen;
 		}
 	});
 
