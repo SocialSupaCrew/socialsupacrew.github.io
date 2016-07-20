@@ -69,7 +69,7 @@ md-card{
 .pictSidenav {
 	width: 80px;
 	height: 80px;
-	background-image: url("../img/pict_test.jpg");
+	background-image: url("../img/pict.jpg");
 	background-size: cover;
 	background-position: top;
 	border-radius: 50%;
@@ -130,6 +130,10 @@ md-card{
 
 .card_desc {
 	margin-top: 0px;
+}
+
+md-icon {
+  fill: #ffffff;
 }
 
 .footer {

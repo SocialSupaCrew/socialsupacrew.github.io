@@ -12,6 +12,7 @@
 
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
 
 	<script src="js/app.js"></script>
 	<script src="js/controllers.js"></script>
@@ -19,27 +20,27 @@
 	<title>Gwilherm Bernard</title>
 </head>
 <body>
-	<div ng-controller="cvCtrl" layout="column" layout-fill>
+	<div ng-controller="cvCtrl" layout="column">
 		<section layout="row">
 			<md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
 				<div class="headSidenav">
 					<div class="pictSidenav md-whiteframe-z3"></div>
 					<div class="myName whiteText">Gwilherm BERNARD</div>
-					<div class="myJob whiteText">Manager des SI (en préparation)</div>
+					<div class="myJob whiteText">Manager des SI (en formation)</div>
 				</div>
 				<md-content layout-padding class="bodySidenav">
 					<md-list>
 						<md-list-item class="md-2-line" ng-repeat="menuItem in menuItems">
-							<md-icon md-svg-icon="{{menuItem.icon}}" class="whiteText"></md-icon>
-							<div class="md-list-item-text">
-								<h3 ng-if="!menuItem.mail && menuItem.text" class="whiteText text-height">{{menuItem.text}}</h3>
-								<h3 ng-if="menuItem.mail" class="whiteText"><a href="mailto:{{menuItem.text}}" class="whiteText">{{menuItem.text}}</a></h3>
+							<md-icon md-svg-src="{{menuItem.icon}}"></md-icon>
+							<div class="md-list-item-text" flex>
+								<h3 ng-if="!menuItem.mail" class="whiteText text-height">{{menuItem.text}}</h3>
+								<h3 ng-if="menuItem.mail" style="font-size: 15px;" class="whiteText text-height"><a href="mailto:{{menuItem.text}}" class="whiteText">{{menuItem.text}}</a></h3>
 								<p class="whiteText">{{menuItem.type}}</p>
 							</div>
 							<md-divider></md-divider>
 						</md-list-item>
 						<md-list-item class="md-2-line">
-							<md-icon md-svg-icon="img/icons/ic_content_paste.svg" class="whiteText"></md-icon>
+							<md-icon md-svg-src="img/icons/ic_content_paste.svg"></md-icon>
 							<div class="md-list-item-text">
 								<h3 class="whiteText">Compétences :</h3>
 								<div class="skills whiteText" ng-repeat="skill in skills">
@@ -97,7 +98,7 @@
 											<p class="card_desc">5<sup>e</sup> année du cycle ingénieur informatique Exia.CESI spécialité logicielle.</p>
 										</div>
 										<div class="card_logo" flex flex-sm="100">
-											<img src="img/ExiaLogo.png" alt="exia-logo">
+											<a href="https://exia.cesi.fr" target="_blank"><img src="img/ExiaLogo.png" alt="exia-logo"></a>
 										</div>
 									</div>
 									<md-divider></md-divider>
@@ -161,7 +162,7 @@
 										<div flex="50" flex-sm="100">
 											<p class="card_subtitle">Centres d'intérets :</p>
 											<p class="card_desc">- Voyages</p>
-											<p class="card_desc">- Karaté (ceinture noire 2ème dan)</p>
+											<p class="card_desc">- Karaté (ceinture noire 2<sup>e</sup> dan)</p>
 										</div>
 									</div>
 								</div>

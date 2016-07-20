@@ -36,6 +36,15 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 
 	$scope.employments = [
 		{
+			subtitle : 'Bankin\', Paris - Développement Android (stage)',
+			date : '2016 (6 mois)',
+			desc : 'Développement de l\'application Android Bankin\'. Ajout de nouvelles fonctionnalités, correction de bugs...',
+			logo : 'img/logo-bankin.png',
+			logo_alt : 'logo-bankin',
+			last : false,
+			url : "http://www.bankin.com"
+		},
+		{
 			subtitle : 'Playmoweb, Angers - Développement d\'applications mobiles (stage)',
 			date : '2014 - 2015 (5 mois)',
 			desc : 'Création d\'applications mobiles iOS avec Cordova et AngularJs et correction de bugs sur application Android',
@@ -50,7 +59,7 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 			logo : 'img/logo-pqp.jpg',
 			logo_alt : 'logo-pqp',
 			last : false,
-			url : "http://www.pourquipourquoi.fr"
+			url : "http://www.pqp-communication.fr"
 		},{
 			subtitle : 'Pour Qui Pourquoi, Angers - Développement web (stage)',
 			date : '2014 (2,5 mois)',
@@ -58,7 +67,7 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 			logo : 'img/logo-pqp.jpg',
 			logo_alt : 'logo-pqp',
 			last : false,
-			url : "http://www.pourquipourquoi.fr"
+			url : "http://www.pqp-communication.fr"
 		},{
 			subtitle : 'Productys, Saint-Nazaire - Développement .net (stage)',
 			date : '2013 (2,5 mois)',
