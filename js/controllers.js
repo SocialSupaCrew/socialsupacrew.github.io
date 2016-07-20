@@ -136,7 +136,7 @@ app.controller('FabCtrl', function($scope, $timeout){
 	self.items = [
 	{
 		name: "E-mail",
-		icon: "img/icons/ic_email.svg",
+		icon: "img/icons/ic_email_black.svg",
 		direction: "left",
 		link: "mailto:gwilherm.bernard@gmail.com",
 		mail: true
