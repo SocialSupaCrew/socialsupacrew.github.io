@@ -29,7 +29,7 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 		}, {
 			type : 'France',
 			icon : 'img/icons/ic_map.svg',
-			text : 'Saint-Brevin-les-Pins (44)',
+			text : 'Paris (75)',
 			mail : false,
 		},
 	];
