@@ -159,7 +159,7 @@ app.controller('FabCtrl', function($scope, $timeout){
 		name: "CV PDF",
 		icon: "img/icons/ic_download.svg",
 		direction: "left",
-		link: "doc/cv.pdf",
+		link: "doc/cv_gwilherm_bernard.pdf",
 		mail: false
 	}];
 
