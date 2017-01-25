@@ -4,7 +4,11 @@
 
 a {
 	text-decoration: none;
-	color: black;
+	color: #9E9E9E;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 md-divider{

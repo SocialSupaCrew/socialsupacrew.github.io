@@ -14,7 +14,7 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 		{
 			type : '',
 			icon : 'img/icons/ic_person_outline.svg',
-			text : 'Étudiant en 5e année à l\'Exia.Cesi de Saint-Nazaire, je prépare un diplôme d\'ingénieur CESI spécialité informatique.',
+			text : 'Développeur Android chez Bankin\'.',
 			mail : false,
 		}, {
 			type : 'Mobile',
@@ -37,7 +37,7 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 	$scope.employments = [
 		{
 			subtitle : 'Bankin\', Paris - Développement Android (CDD)',
-			date : '2016/2017 (6 mois)',
+			date : '2016 - Aujoud\'hui',
 			desc : 'Développement de l\'application Android Bankin\'. Ajout de nouvelles fonctionnalités, correction de bugs...',
 			logo : 'img/logo-bankin.png',
 			logo_alt : 'logo-bankin',
