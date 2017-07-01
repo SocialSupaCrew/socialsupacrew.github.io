@@ -36,7 +36,7 @@ app.controller('cvCtrl', function($scope, $mdSidenav) {
 
 	$scope.employments = [
 		{
-			subtitle : 'Bankin\', Paris - Développement Android (CDD)',
+			subtitle : 'Bankin\', Paris - Développement Android (CDI)',
 			date : '2016 - Aujoud\'hui',
 			desc : 'Développement de l\'application Android Bankin\'. Ajout de nouvelles fonctionnalités, correction de bugs...',
 			logo : 'img/logo-bankin.png',
